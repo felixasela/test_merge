@@ -5,6 +5,8 @@ public class main {
         persona.mostrarDatos();
         Saludo saludo = new Saludo();
         saludo.mostrarSaludo();
+        String nombre = saludo.mostrarSaludo();
+        saludo.mostrarNombre(nombre);
     }
 }
 
