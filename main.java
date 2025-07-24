@@ -5,6 +5,8 @@ public class main {
         persona.mostrarDatos();
         Saludo saludo = new Saludo();
         saludo.mostrarSaludo();
+        Saludo despedida = new Saludo();
+        despedida.mostrarDespedida();
     }
 }
 
